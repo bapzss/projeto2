@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+.ProdutoInicial{
+    width: 300px;
+   border-radius: 10px;
+   margin: 10px;
+}
+#ProdutosHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
