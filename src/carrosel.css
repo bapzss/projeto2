@@ -1,0 +1,41 @@
+.carousel-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px 0;
+}
+
+.carousel-image {
+  width: 500px; /* ajuste como quiser */
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel-btn {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+
+
+
+}
+
+.carousel-btn.left {
+  left: 700px;
+}
+
+.carousel-btn.right {
+  right: 700px;
+}
+
+.carousel-btn:hover {
+  background: black;
+}
