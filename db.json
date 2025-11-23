@@ -1,0 +1,44 @@
+{
+    "produtos":[
+        {
+            "id": 1,
+            "nome": "Boné StrtBorn OG",
+            "tamanho": ["P", "M", "G", "GG"],
+            "preco": 49.99,
+            "imagem": "/img/boné-streetborn-og.png",
+            "descricao": "Boné estilo streetwear com logo bordado na frente."
+        },
+        {
+          "id": 2,
+            "nome": "Jaqueta Varsity StrtBorn",
+            "tamanho": ["P", "M", "G", "GG"],
+            "preco": 799.99,
+            "imagem": "/img/varsity.png",
+            "descricao": "Inspirada nas equipes universitárias americanas, esta varsity traz detalhes bordados, mangas contrastantes e caimento impecável. Perfeita para quem quer se destacar com estilo atemporal."
+        },
+        {
+            "id": 3,
+            "nome": " Jaqueta de Corrida Vintage StrtBorn",
+            "tamanho": ["P", "M", "G", "GG"],
+            "preco": 949.99,
+            "imagem": "/img/corrida.png",
+            "descricao": "Inspirada nas jaquetas esportivas dos anos 80 e 90, traz cores clássicas, zíper leve e tecido resistente ao vento. Combina estética retrô com funcionalidade atual. Perfeita para quem curte moda vintage e looks urbanos com personalidade."
+        },
+        {
+            "id": 4,
+            "nome": " Casaco StrtBorn Originals",
+            "tamanho": ["P", "M", "G", "GG"],
+            "preco": 349.99,
+            "imagem": "/img/jaqueta.png",
+            "descricao": "Um casaco icônico com aparência limpa e marcante. Modelagem reta, tecido confortável e detalhes minimalistas que fazem dele uma peça essencial no guarda-roupa streetwear. O “OG” representa a originalidade do estilo raiz — simples, sólido e estiloso."
+        },
+        {
+            "id": 5,
+            "nome": "Cinto StrtBorn Originals",
+            "tamanho": ["P", "M", "G", "GG"],
+            "preco": 149.99,
+            "imagem": "/img/cinto.png",
+            "descricao": "Cinto de couro resistente com fivela metálica e visual clean. Um acessório essencial para completar o look streetwear. A marca “SB Originals” reforça autenticidade e durabilidade — feito para quem valoriza estilo, simplicidade e qualidade."
+        }
+    ]
+}
