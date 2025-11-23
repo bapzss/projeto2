@@ -3,6 +3,7 @@ import PaginaPrincipal from "./pages/PaginaPrincipal/Home";
 import Header from "./components/Header/Header";
 import Vitrine from "./pages/Vitrine/Vitrine";
 import Carousel from "./carousel.jsx"; 
+import Footer from "./components/footer/footer.jsx";
 import "./index.css";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         />
         <Route path="/vitrine" element={<Vitrine />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
