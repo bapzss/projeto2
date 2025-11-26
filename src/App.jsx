@@ -4,6 +4,9 @@ import Header from "./components/Header/Header";
 import Vitrine from "./pages/Vitrine/Vitrine";
 import Carousel from "./carousel.jsx"; 
 import Footer from "./components/footer/footer.jsx";
+import Detalhes from "./pages/Detalhes.jsx";
+import AdicionarProduto from "./pages/AdicionarProdutos.jsx";
+import Sobre from "./pages/Sobre.jsx";
 import "./index.css";
 
 const App = () => {
@@ -21,6 +24,9 @@ const App = () => {
           }
         />
         <Route path="/vitrine" element={<Vitrine />} />
+        <Route path="/produtos/:id" element={<Detalhes />} />
+        <Route path="/adicionar" element={<AdicionarProduto />} />
+        <Route path="/sobre" element={<Sobre />} />
       </Routes>
       <Footer />
     </BrowserRouter>

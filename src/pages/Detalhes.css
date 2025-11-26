@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.detalhes-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.detalhes-img {
+  width: 350px;
+  border-radius: 12px;
+}
+
+.detalhes-info {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.descricao {
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
+  font-size: 32px;
+  opacity: 0.8;
+}
+
+.preco {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tamanhos {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.btn-tamanho {
+  border: 1px solid #000;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: white;
+}
+
+.btn-tamanho.ativo {
+  background: black;
+  color: white;
+}
+
+.btn-criar {
+  margin-top: 20px;
+  padding: 20px 65px;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-criar:hover {
+  background: #333;
+}

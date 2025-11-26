@@ -1,44 +1,105 @@
 {
-    "produtos":[
-        {
-            "id": 1,
-            "nome": "Boné StrtBorn OG",
-            "tamanho": ["P", "M", "G", "GG"],
-            "preco": 49.99,
-            "imagem": "/img/boné-streetborn-og.png",
-            "descricao": "Boné estilo streetwear com logo bordado na frente."
-        },
-        {
-          "id": 2,
-            "nome": "Jaqueta Varsity StrtBorn",
-            "tamanho": ["P", "M", "G", "GG"],
-            "preco": 799.99,
-            "imagem": "/img/varsity.png",
-            "descricao": "Inspirada nas equipes universitárias americanas, esta varsity traz detalhes bordados, mangas contrastantes e caimento impecável. Perfeita para quem quer se destacar com estilo atemporal."
-        },
-        {
-            "id": 3,
-            "nome": " Jaqueta de Corrida Vintage StrtBorn",
-            "tamanho": ["P", "M", "G", "GG"],
-            "preco": 949.99,
-            "imagem": "/img/corrida.png",
-            "descricao": "Inspirada nas jaquetas esportivas dos anos 80 e 90, traz cores clássicas, zíper leve e tecido resistente ao vento. Combina estética retrô com funcionalidade atual. Perfeita para quem curte moda vintage e looks urbanos com personalidade."
-        },
-        {
-            "id": 4,
-            "nome": " Casaco StrtBorn Originals",
-            "tamanho": ["P", "M", "G", "GG"],
-            "preco": 349.99,
-            "imagem": "/img/jaqueta.png",
-            "descricao": "Um casaco icônico com aparência limpa e marcante. Modelagem reta, tecido confortável e detalhes minimalistas que fazem dele uma peça essencial no guarda-roupa streetwear. O “OG” representa a originalidade do estilo raiz — simples, sólido e estiloso."
-        },
-        {
-            "id": 5,
-            "nome": "Cinto StrtBorn Originals",
-            "tamanho": ["P", "M", "G", "GG"],
-            "preco": 149.99,
-            "imagem": "/img/cinto.png",
-            "descricao": "Cinto de couro resistente com fivela metálica e visual clean. Um acessório essencial para completar o look streetwear. A marca “SB Originals” reforça autenticidade e durabilidade — feito para quem valoriza estilo, simplicidade e qualidade."
-        }
-    ]
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Boné StrtBorn OG",
+      "tamanho": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "preco": 49.99,
+      "imagem": "/img/boné-streetborn-og.png",
+      "descricao": "Boné estilo streetwear com logo bordado na frente."
+    },
+    {
+      "id": "2",
+      "nome": "Jaqueta Varsity StrtBorn",
+      "tamanho": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "preco": 799.99,
+      "imagem": "/img/varsity.png",
+      "descricao": "Inspirada nas equipes universitárias americanas, esta varsity traz detalhes bordados, mangas contrastantes e caimento impecável. Perfeita para quem quer se destacar com estilo atemporal."
+    },
+    {
+      "id": "3",
+      "nome": " Jaqueta de Corrida Vintage StrtBorn",
+      "tamanho": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "preco": 949.99,
+      "imagem": "/img/corrida.png",
+      "descricao": "Inspirada nas jaquetas esportivas dos anos 80 e 90, traz cores clássicas, zíper leve e tecido resistente ao vento. Combina estética retrô com funcionalidade atual. Perfeita para quem curte moda vintage e looks urbanos com personalidade."
+    },
+    {
+      "id": "4",
+      "nome": " Casaco StrtBorn Originals",
+      "tamanho": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "preco": 349.99,
+      "imagem": "/img/jaqueta.png",
+      "descricao": "Um casaco icônico com aparência limpa e marcante. Modelagem reta, tecido confortável e detalhes minimalistas que fazem dele uma peça essencial no guarda-roupa streetwear. O “OG” representa a originalidade do estilo raiz — simples, sólido e estiloso."
+    },
+    {
+      "id": "5",
+      "nome": "Cinto StrtBorn Originals",
+      "tamanho": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "preco": 149.99,
+      "imagem": "/img/cinto.png",
+      "descricao": "Cinto de couro resistente com fivela metálica e visual clean. Um acessório essencial para completar o look streetwear. A marca “SB Originals” reforça autenticidade e durabilidade — feito para quem valoriza estilo, simplicidade e qualidade."
+    },
+    {
+      "id": "6",
+      "nome": "Carteira StrtBorn Daily",
+      "tamanho": [
+        "Tamanho Unico!"
+      ],
+      "preco": 189.99,
+      "imagem": "/img/carteira.png",
+      "descricao": "A carteira Streetborn nasce da essência das ruas — prática, resistente e com atitude. Criada para quem vive o corre diário, ela traz um design compacto e funcional, combinando estilo urbano com a resistência que só a Streetborn entrega. Perfeita para guardar seus itens essenciais com segurança e personalidade."
+    },
+    {
+      "id": "7",
+      "nome": "Jaqueta Puffer StrtBorn Originals",
+      "tamanho": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "preco": 399.99,
+      "imagem": "/img/puffer.png",
+      "descricao": "O Puffer Streetborn foi criado para quem domina as ruas em qualquer clima. Com volume marcante e construção robusta, ele entrega conforto térmico sem perder o visual pesado que é assinatura da marca. Seu revestimento resistente à água, aliado ao enchimento leve e isolante, garante proteção nas noites mais frias. Os bolsos estratégicos, o zíper reforçado e o caimento oversized dão o toque funcional e urbano que acompanha seu ritmo."
+    },
+    {
+      "id": "8",
+      "nome": "Camisa Oversized StrtBorn Streetwear",
+      "tamanho": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "preco": 89.99,
+      "imagem": "/img/camisa.png",
+      "descricao": "A Camisa Streetborn prova que o simples também carrega atitude. Com um corte clean e caimento confortável, ela foi criada para ser aquela peça essencial que combina com qualquer vibe — do corre diário ao rolê noturno."
+    }
+  ]
 }
